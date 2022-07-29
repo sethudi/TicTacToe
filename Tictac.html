@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #Game-cell{
+        width: 50px;
+        height: 50px;
+    }
+    #grid{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+           
+    }
+    #board{
+        border-radius: 15px;
+        text-align: center;
+        padding: 10px;
+        width :25%;
+        height: 400px;
+        background-color: aqua;
+        margin-top: 100px;
+    }
+    #restart{
+        margin-top: 40px ;
+    }
+    
+   
+</style>
+<body>
+    <div id="board">
+        <h1>Tic Tac Toe</h1>
+        <h2 id="header">Player 1's Turn</h2>
+
+        <table role="grid">
+            <tbody>
+                <tr>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                    <td><button id="Game-cell"></button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="restart">Restart Game</button>
+    </div>
+</body>
+</html>
